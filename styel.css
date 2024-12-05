@@ -1,0 +1,150 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC", sans-serif;
+}
+
+/* General Page Styles */
+.w3-container {
+    padding: 32px;
+}
+
+.w3-button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.w3-bar {
+    background-color: #333;
+    color: white;
+}
+
+/* Navbar */
+.w3-bar-item {
+    padding: 16px;
+    text-decoration: none;
+}
+
+.w3-bar-item:hover {
+    background-color: #ff5722;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#home h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#home .w3-button {
+    font-size: 1.2rem;
+    background-color: #ff5722;
+    color: white;
+}
+
+/* Menu Section */
+#menu {
+    background-color: #333;
+    color: white;
+}
+
+#menu .w3-row a {
+    padding: 20px;
+    color: white;
+}
+
+#menu .w3-row a:hover {
+    background-color: #ff5722;
+}
+
+/* Pizza Menu Section */
+#pizza {
+    padding: 32px;
+    background-color: #fff;
+}
+
+#pizza h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#pizza p {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.w3-tag {
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.w3-right {
+    float: right;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#about img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact form button {
+    padding: 12px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.contact .social-links a {
+    margin: 0 10px;
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
